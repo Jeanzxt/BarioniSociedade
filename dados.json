@@ -1,0 +1,179 @@
+{
+  "advogados": [
+    {
+      "id": 1,
+      "ordem": 1,
+      "nome": "Dr. Willian Barioni",
+      "especialidade": "Direito Civil, Empresarial e Previdenciário",
+      "biografia": "Sócio fundador da Willian Barioni Sociedade de Advocacia. Atua com análise técnica, organização documental e comunicação objetiva nas demandas de pessoas e empresas.",
+      "whatsapp": null,
+      "telefone": null,
+      "inscricao_oab": null,
+      "email": null,
+      "formacao": [],
+      "redes_sociais": {},
+      "pagina": "advogado-willian.html",
+      "foto": "willian-barioni.jpeg",
+      "imagem_base": "willian-barioni",
+      "funcao": "Sócio fundador",
+      "temas": [
+        "Direito Civil",
+        "Direito Empresarial",
+        "Direito Previdenciário"
+      ]
+    },
+    {
+      "id": 2,
+      "ordem": 3,
+      "nome": "Dr. Luiz Carlos Marconato Junior",
+      "especialidade": "Direito Cível, Criminal e Recuperação de Créditos",
+      "biografia": "Atua em direito cível, criminal e recuperação de créditos.",
+      "whatsapp": "5543984187610",
+      "telefone": "(43) 98418-7610",
+      "inscricao_oab": "OAB/PR 122.541",
+      "email": "contato@luizmarconato.com",
+      "formacao": [],
+      "redes_sociais": {
+        "LinkedIn": "https://www.linkedin.com/in/luizmarconato/",
+        "YouTube": "https://www.youtube.com/@luizmarconatoadvogado"
+      },
+      "pagina": "advogado-luiz-marconato.html",
+      "foto": "luiz-carlos-marconato-junior.jpeg",
+      "imagem_base": "luiz-carlos-marconato-junior",
+      "funcao": "Cível e criminal",
+      "temas": [
+        "Direito Cível",
+        "Direito Criminal",
+        "Recuperação de créditos"
+      ]
+    },
+    {
+      "id": 3,
+      "ordem": 2,
+      "nome": "Dra. Daniella Souza",
+      "especialidade": "Direito de Família",
+      "biografia": "Atuação em divórcio, guarda, pensão alimentícia e demais questões familiares.",
+      "whatsapp": null,
+      "telefone": null,
+      "inscricao_oab": null,
+      "email": null,
+      "formacao": [],
+      "redes_sociais": {},
+      "pagina": "advogada-daniella-souza.html",
+      "foto": "maria-silva.jpeg",
+      "imagem_base": "daniella-souza",
+      "funcao": "Família e sucessões",
+      "temas": [
+        "Divórcio",
+        "Guarda e convivência familiar",
+        "Pensão alimentícia",
+        "Acordos familiares"
+      ]
+    },
+    {
+      "id": 4,
+      "ordem": 4,
+      "nome": "Dra. Fernanda Camargo",
+      "especialidade": "Direito do Trabalho",
+      "biografia": "Atuação em reclamações trabalhistas, contratos, rescisões e negociação de acordos.",
+      "whatsapp": null,
+      "telefone": null,
+      "inscricao_oab": null,
+      "email": null,
+      "formacao": [],
+      "redes_sociais": {},
+      "pagina": "advogada-fernanda-camargo.html",
+      "foto": "ana-costa.jpeg",
+      "imagem_base": "fernanda-camargo",
+      "funcao": "Relações de trabalho",
+      "temas": [
+        "Reclamações trabalhistas",
+        "Contratos de trabalho",
+        "Rescisões",
+        "Negociação de acordos"
+      ]
+    }
+  ],
+  "servicos": [
+    {
+      "id": 1,
+      "titulo": "Direito Civil",
+      "descricao": "Contratos, responsabilidade civil, indenizações, cobranças, sucessões e outras demandas cíveis.",
+      "slug": "civil",
+      "detalhes": [
+        "Contratos e negociações",
+        "Indenizações e responsabilidade civil",
+        "Cobranças, sucessões e patrimônio"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Direito Previdenciário",
+      "descricao": "Aposentadorias, benefícios do INSS, revisões, auxílio por incapacidade, BPC/LOAS e planejamento previdenciário.",
+      "slug": "previdenciario",
+      "detalhes": [
+        "Aposentadorias e revisões",
+        "Benefícios por incapacidade e BPC/LOAS",
+        "Planejamento previdenciário"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Direito Trabalhista",
+      "descricao": "Verbas rescisórias, vínculo de emprego, horas extras, assédio, acordos e defesa em reclamações trabalhistas.",
+      "slug": "trabalhista",
+      "detalhes": [
+        "Verbas rescisórias e vínculo de emprego",
+        "Horas extras e condições de trabalho",
+        "Acordos e reclamações trabalhistas"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Direito de Família",
+      "descricao": "Divórcio, guarda, convivência, pensão alimentícia, partilha de bens e acordos familiares.",
+      "slug": "familia",
+      "detalhes": [
+        "Divórcio e partilha de bens",
+        "Guarda e convivência familiar",
+        "Pensão alimentícia e acordos"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Direito Criminal",
+      "descricao": "Orientação em inquéritos, audiências, medidas urgentes, defesa criminal e acompanhamento processual.",
+      "slug": "criminal",
+      "detalhes": [
+        "Acompanhamento em inquéritos",
+        "Defesa em processos e audiências",
+        "Medidas urgentes e recursos"
+      ]
+    }
+  ],
+  "informacoes_escritorio": {
+    "nome": "Willian Barioni Sociedade de Advocacia",
+    "descricao": "Orientação jurídica para pessoas, famílias e empresas.",
+    "endereco": "Rua Senador Souza Naves, 09 · 4º andar, sala 411",
+    "cidade": "Londrina",
+    "estado": "PR",
+    "cep": "86015-130",
+    "telefone": "(43) 99168-7771",
+    "email": "barioni.adv@gmail.com",
+    "whatsapp": "5543991687771",
+    "horario_funcionamento": {
+      "segunda": "09:00 - 18:00",
+      "terca_sexta": "08:00 - 18:00",
+      "sabado": "Fechado",
+      "domingo": "Fechado"
+    },
+    "redes_sociais": {
+      "instagram": "https://www.instagram.com/adv.barioni/"
+    },
+    "ano_fundacao": 2024,
+    "nome_curto": "Willian Barioni",
+    "subtitulo": "Sociedade de Advocacia",
+    "bairro": "Centro",
+    "estado_nome": "Paraná"
+  }
+}

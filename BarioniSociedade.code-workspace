@@ -1,0 +1,48 @@
+{
+  "folders": [{ "name": "BarioniSociedade", "path": "." }],
+  "settings": {
+    "files.encoding": "utf8",
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      ".venv": true,
+      ".agents": true
+    },
+    "search.exclude": {
+      "**/.venv": true,
+      "**/__pycache__": true,
+      "publicacao": true
+    },
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "BarioniSociedade: iniciar site",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+        "args": ["start_server.py"],
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": []
+      },
+      {
+        "label": "BarioniSociedade: verificar referências",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+        "args": ["check_html_refs.py"],
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": []
+      },
+      {
+        "label": "BarioniSociedade: gerar publicação",
+        "type": "process",
+        "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+        "args": ["scripts/package_site.py"],
+        "options": { "cwd": "${workspaceFolder}" },
+        "group": { "kind": "build", "isDefault": true },
+        "problemMatcher": []
+      }
+    ]
+  }
+}

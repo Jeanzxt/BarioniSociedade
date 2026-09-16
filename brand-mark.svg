@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" role="img" aria-label="Monograma WB — Willian Barioni">
+  <g stroke="#c4a36b">
+    <path class="brand-frame" d="M31 5A36 36 0 0 0 31 75M49 75A36 36 0 0 0 49 5" stroke-width="1"/>
+    <path class="brand-orbit" d="M40 4a36 36 0 1 1 0 72a36 36 0 1 1 0-72" pathLength="100" stroke-width="1.2" opacity="0"/>
+    <path class="brand-detail" d="m40 3 3 3-3 3-3-3 3-3Zm0 68 3 3-3 3-3-3 3-3Z" fill="#c4a36b" stroke="none"/>
+    <g class="brand-monogram" stroke-linejoin="round">
+      <path d="m15 26 8 27 7-20 7 20 8-27" stroke-width="2.4"/>
+      <path d="M11 26h9m20 0h9" stroke-width="1.5" stroke-linecap="square"/>
+      <path d="M46 26v27h9c13 0 13-14 0-14h-9m0-13h8c12 0 12 13 0 13M42 26h4m-4 27h4" stroke-width="2.4"/>
+    </g>
+  </g>
+</svg>
