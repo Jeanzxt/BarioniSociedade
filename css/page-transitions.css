@@ -1,0 +1,29 @@
+﻿/* Transições previsíveis entre documentos, sem depender da API do navegador. */
+:root { --page-transition-enabled: 1; }
+
+@keyframes site-page-enter {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
+}
+@keyframes site-page-leave {
+    from { opacity: 1; transform: none; }
+    to { opacity: 0.15; transform: translateY(-4px); }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    .page-entering #conteudo {
+        animation: site-page-enter 360ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+    }
+    .page-leaving #conteudo {
+        animation: site-page-leave 160ms ease-out both;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root { --page-transition-enabled: 0; }
+    .page-entering #conteudo, .page-leaving #conteudo {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}
